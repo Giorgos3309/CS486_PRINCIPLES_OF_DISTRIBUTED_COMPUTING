@@ -1,0 +1,14 @@
+-------BUILD & RUN-----------------
+
+make project2
+mpirun -np 14 ./project_v1    // 2.1 , 2.2 , 2.3 , 2.5 + UPLOAD
+mpirun -np 14 ./project_v2    // 2.1 , 2.2 , 2.3 , 2.5 + UPLOAD + RETRIEVE
+--------------------------------------------------
+Exw ulopoiisei plirws to 2.1 , 2.2 , 2.3 , 2.5.
+Apo to 2.4 exw ulopoiisei to UPLOAD kathws kai to RETRIEVE . Sto RETRIEVE epeidi 
+ektupwnw(testing) sto stdout perita pragmata kai epeidi exei ena mikro bug ginete build sto project_v2
+wste na min uparxei mperdema me ta alla px to UPLOAD kai to SHUTDOWN 
+
+--------------------------------------------------
+to programma mou diavazei to inputfile.txt , opou exei to testfile me ta 70 processes ,
+gia na treksw allo testfile antikathistw ta periexomena tou inputfile.txt
